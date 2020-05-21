@@ -1,0 +1,21 @@
+//Berestean Catalin 323CC
+
+================== TEMA 3 PC - CLIENT HTTP ==================
+
+Am implementat un client HTTP, care este rezolvat pe etape, 
+asemenea unui treasure hunt. Deasemenea am folosit biblioteca
+JSON Parson, pentru a parsa JSON-ul si extrage informatiile necesare.
+La taskul 1, am realizat un GET pe URL-ul /task1/start, astfel
+afland urmatoarea conditie. 
+La taskul 2, am realizat o autentificare cu credentialele din campul 
+"data.username" si "data.password", iar mai apoi le-am completat cu comanda PUT. 
+La taskul 3, am realizat un GET cu raspunsurile la ghicitori, pe care
+le-am inlocuit in fieldul de raspuns. Cu putin lookup pe Internet :D,
+am gasit raspunsurile la ghicitori, iar id-ul l-am extras din campul 
+"data.queryParams.id".
+La taskul 4, am mai realizat un GET pentru a identifica cheia spre comoara,
+fiind chiar usor, din moment ce a fost nevoie doar inca un apel al
+functiei compute_get_request.
+
+Chiar mi-a placut aceasta tema, caci am inteles mai bine principiile HTTP,
+mecanismul unui Cookie, care sunt foarte relevante pentru procesele din ziua de azi. 
